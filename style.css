@@ -1,0 +1,174 @@
+/* ====== CÀI ĐẶT CHUNG ====== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f2f8fc;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ====== HEADER ====== */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+}
+
+/* ====== MAIN SECTIONS ====== */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* ====== TRANG CHỦ (index.html) ====== */
+.welcome {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.highlight {
+    background-color: #eaf6ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.highlight h3 {
+    color: #2c3e50;
+}
+
+.highlight ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.highlight li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+/* ====== GIỚI THIỆU NHÓM (about.html) ====== */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.member {
+    background-color: #ffffff;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.member:hover {
+    transform: scale(1.03);
+}
+
+.member h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.member p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+/* ====== LIÊN HỆ (contact.html) ====== */
+#contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
